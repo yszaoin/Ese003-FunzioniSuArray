@@ -11,7 +11,8 @@ float media(int valori[], int dimensione);
 int main(int argc, char** argv) {
     int i;
     int numeri[N];
-    int max, min, med;
+    int max, min;
+    float med;
     
     printf("Inserisci %d valori interi\n", N);
     for(i=0; i<N; i++) {
@@ -25,7 +26,7 @@ int main(int argc, char** argv) {
     
     printf("Il valore MASSIMO e' %d.\n", max);
     printf("Il valore MINIMO e' %d.\n", min);
-    printf("Il valore MEDIO e' %d.\n", med);
+    printf("Il valore MEDIO e' %f.\n", med);
     
     return (EXIT_SUCCESS);
 }
